@@ -9,7 +9,7 @@ The Spark Stream pipeline project is a data pipeline that retrieves, processes, 
 
 ------
 
-![](./images/236661118-abc7c938-da95-4015-84ed-9b7d3fcbbb22.png)
+![](./Images/236661118-abc7c938-da95-4015-84ed-9b7d3fcbbb22.png)
 
 The project involves six data pipelines that work to collect and process live Twitter data. The data is first streamed through a TCP socket using a Python Twitter listener and fed into a Spark processing engine. From there, the processed data is stored in HDFS parquet format.
 
